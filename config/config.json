@@ -1,0 +1,8 @@
+{
+    "server":{
+        "appName":"Tone Analyzer Service Bot (TASB)",
+        "port":3700,
+        "environment":"devlopment"
+    }   
+}
+

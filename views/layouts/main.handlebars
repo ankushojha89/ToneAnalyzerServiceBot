@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>    Welcome to
+    {{#if title}}
+    {{title}}
+    {{else}}
+     My First Bot
+    {{/if}}    
+    </title>
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="/css/styles.css" rel="stylesheet">
+ <!-- Jquery for this template -->
+    <script src="/js/jquery.min.js"></script>
+  </head>
+
+  <body>
+
+   <nav class="navbar navbar-expand-md navbar-light clearfix" style="background-color: #fbdfb9;" > 
+      <a class="navbar-brand" href="/">
+            {{#if title}}   {{title}}  {{else}}   My First Bot   {{/if}}  
+      </a>
+    </nav>
+    
+    <div class="container padding20 clearfix">
+   
+              
+    {{{body}}}
+      </div>
+
+    <div class="container clearfix">
+      <footer class="footer">
+     
+        <p>&copy; {{#if title}}
+    {{title}}
+    {{else}}
+     My First Bot
+    {{/if}}   2017</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+ 
+    <script src="/js/bootstrap.min.js"></script>
+    
+  
+
+ </body>
+</html>

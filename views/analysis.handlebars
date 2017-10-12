@@ -1,0 +1,38 @@
+<div class="justify-content-md-center row">
+    <h2 class="display-4">Welcome to Text Analyze Service</h2>     
+</div>
+ <div class="justify-content-md-center row">
+      <a href="/" class="btn btn-md btn-outline-success ">Click me for Chat Analyze Service</a> 
+    </div>
+      
+<div  class="justify-content-md-center row ">
+     <div class="col-sm-8">
+  <form id="text_tone_analysis_form" method="post" action="/botapi/tone">
+  <div class="form-group">
+    <label for="message"></label>
+    <textarea class="form-control" id="message" name="message" placeholder="Enter your text here" rows="12"></textarea>
+ </div>   
+  <button type="submit" class="btn btn-success btn-lg btn-block">Analyze</button>
+</form>
+        </div> 
+</div>
+
+<div class="row" style="padding-top: 50px;">
+ <div class="col-sm-4">
+     <p class="lead">Input</p>
+     <textarea  id="input_message"  class="form-control" disabled rows="25"></textarea>
+    
+ </div>
+
+  <div class="col-sm-8">
+      <p class="lead">Output</p>
+       <textarea  id="output_message"  class="form-control" disabled rows="25"></textarea>
+    
+  </div>
+
+</div>
+
+
+
+<script src="/js/text_tone_analysis.js"></script>
+
