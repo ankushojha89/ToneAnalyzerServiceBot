@@ -8,9 +8,6 @@
     "start": "node app.js",
     "mydev": "node app.js"
   },
-  "engines": {
-    "node": "8.6.0"
-  },
   "keywords": [
     "bot",
     "automation"
